@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/home/ivk/Desktop/Practice/ccbp/musicpage.css" >
+</head>
+
+<body>
+    <div id="sectionmusichomepage">
+        <div class="bg-music-home-page d-flex flex-column justify-content-center">
+            <div class=home-card-continer>
+                <h1 class="music-home-head">Sleep Music</h1>
+                <p class="music-home-para">Soothing bedtime music to help you fall into adeep and natural sleep</p>
+            </div>
+            <div class="bg-night-island">
+                <h1 class="music-home-head">Night Island</h1>
+                <p class="music-home-para-bottom">Non-stop 8-hour mixes of our most popular sleep audio</p>
+            </div>
+            <div class="text-center"> <button class="button" onclick="display('sectionmusicdetailspage')">Get started</button></div>
+        </div>
+
+    </div>
+
+    <div id="sectionmusicdetailspage">
+
+        <div class="bg-music-details-page">
+            <div>
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/clouds-img.png" class="details-main-image" />
+            <h1 class="details-main-head">Night Island</h1>
+            <p class="details-main-para">Easy the mind in to a restful night's sleep with this deep, amblent tones</p>
+            <p class="details-main-time">45 MIN SLEEP MUSIC</p>
+            </div>
+            <h1 class="details-page-sub-heading ">Related</h1>
+            <div class="d-flex flex-row justify-content-between">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-clouds-img.png" class="details-page-sub-image" />
+                    <h1 class="card-hed">Moon Clouds</h1>
+                    <p class="card-par">55 MIN SLEEP MUSIC</p>
+                </div>
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sweet-sleep-img.png" class="details-page-sub-image" />
+                    <h1 class="card-hed">Sweet Sleep</h1>
+                    <p class="card-par">60 MIN SLEEP MUSIC</p>
+                </div>
+            </div>
+            <button class="button" onclick="display('sectionmusichomepage')">back</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
