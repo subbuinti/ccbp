@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.bg-home-page{
+    background-image:url('https://assets.ccbp.in/frontend/static-website/flats-list-bg.png');
+    background-size:cover;
+    height:100vh;
+}
+.card-container-home-page{
+     background-color:#ffffff;
+     border-top-right-radius:20px;
+     border-top-left-radius:20px;
+     text-align:center;
+}
+.home-page-head{
+    font-family:"roboto";
+    font-size:40px;
+    color:#f19116;
+    font-weight:700;
+    padding:20px;
+}
+.home-page-para{
+    font-family:"roboto";
+    font-size:20px;
+    color:#6c6b70;
+    font-weight:300;
+    padding: 10px;
+}
+.button-home-page{
+    background-color:#f19116;
+    color:#ffffff;
+    border-radius:9px;
+    width:80px;
+    height:30px;
+    border-width:0px;
+    margin:10px;
+
+
+}
+
+
+.bg-flats-page{
+    background-color:#222222;
+    background-size:cover;
+    
+}
+.flats-page-main-heading{
+    font-family:"roboto";
+    font-size:30px;
+    font-weight:500;
+    color:#f19116;
+    padding:20px;
+
+
+}
+.flat-card-continar{
+    background-color:#ffffff;
+    border-radius:20px;
+    margin:20px;
+    
+}
+
+.flats-card-img{
+    width:200px;
+    height:200px;
+
+}
+.flats-description-card{
+  margin:20px;
+}
+.flats-des-head{
+    font-family:"roboto";
+    font-size:30px;
+    font-weight:500;
+    color:#0f0e46;
+
+
+}
+.flats-des{
+    font-family:"roboto";
+    font-size:30px;
+    
+    color:#6c6b70;
+
+}
+.crd-pad{
+    margin:10px;
+    padding:10px;
+}
+.card-details-page{
+    background-color:#222222;
+    background-size:cover;
+    height:100vh;
+}
+.details-img{ 
+    width:100vw;
+    height:30vh;
+   
+}
+.price-sec{}
+.price-list{
+    font-family:"roboto";
+    font-size:30px;
+    font-weight:500;
+    color:#f19116;
+}
+.location{
+    width:50px;
+    height:50px;
+}
+.address-des{
+    font-family:"roboto";
+    font-size:20px;
+   
+    color:#ffffff;
+}
+.flat-details{
+    font-family:"roboto";
+    font-size:30px;
+    font-weight:500;
+    color:#f19116;
+}
+.flat-details-para{
+    font-family:"roboto";
+    font-size:20px;
+    
+    color:#ffffff;
+}
