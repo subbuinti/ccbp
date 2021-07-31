@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.bg-myprject-page{
+    padding:20px;
+    margin:10px;
+}
+.myprojct-main-img{
+    width:40vw;
+    height:40vh;
+
+}
+.myproject-main-heading{
+    color:#183b56;
+    font-family:"bree serif";
+    font-size:50px;
+    font-weight:700;
+}
+.myproject-main-para{
+    color:#616e7c;
+    font-family:"bree serif";
+    font-size:30px;
+}
+.myproject-sub-img{
+    width:200px;
+    height:200px;
+    padding:20px;
+}
+.myproject-img-container{
+   margin:20px;
+   padding:20px;
+}
+
+
+
+.advanced-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.advanced-card-container {
+    background-color: #ffffff;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 20px;
+}
+
+.advanced-card-text {
+    color: #5752ab;
+    font-family: Bree Serif;
+    font-size: 30px;
+    font-style: bold;
+}
+
+.advanced-card-para {
+    color: #323f4b;
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+.advanced-button1 {
+    background-color: #ffffff;
+    color: #171f46;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #d7dfe9;
+    padding: 5px;
+    width: 110px;
+    font-size: 15px;
+    margin-right: 5px;
+
+
+}
+
+.advanced-button2 {
+    background-color: #5752ab;
+    color: #ffffff;
+    border-width: 0px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 110px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+
+
+.diwali-top-section {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
+    height: 40vh;
+    background-size: cover;
+}
+
+.diwali-top-section-heading {
+    color: white;
+    width: 350px;
+    font-size: 50px;
+    padding: 15px;
+    font-family: caveat;
+}
+
+.diwali-bottom-section {
+    background-color: #e6f6ff;
+    padding: 25px;
+    text-align:center;
+}
+
+.diwali-card-item {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 650px;
+    height:300px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.diwali-image {
+    width: 150px;
+    height: 150px;
+}
+
+.diwali-card-des {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.diwali-card-price {
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+.diwali-buton{
+    text-align:center;
+    color:white;
+}
+
+
+
+.food-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.food-card {
+    padding: 20px;
+    background-color: #f6c56e;
+    color: #323f4b;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.food-style {
+    font-family: Bree serif;
+}
+
+.food-font {
+    font-size: 15px;
+    font-style: bold;
+}
+
+.food-button {
+    border-width: 0px;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+
+.news-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.news-card-container {
+    background-color: #ffffff;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 15px;
+}
+
+.news-card-pera {
+    color: #7b8794;
+    font-size: 10px;
+    font-family: Roboto;
+}
+
+.news-card-heading {
+    color: #323f4b;
+    font-size: 15px;
+    font-family: roboto;
+    font-weight: 600;
+}
+
+.news-card-description {
+    color: #7b8794;
+    font-size: 10px;
+    font-family: Roboto;
+}
+
+.news-card-button {
+    background-color: #323f4b;
+    color: #ffffff;
+    border-width: 0px;
+    border-radius: 8px;
+    font-size: 10px;
+    font-family: Roboto;
+    width: 90px;
+    height: 25px;
+
+}
