@@ -1,0 +1,30 @@
+.food-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.food-card {
+    padding: 20px;
+    background-color: #f6c56e;
+    color: #323f4b;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.food-style {
+    font-family: Bree serif;
+}
+
+.food-font {
+    font-size: 15px;
+    font-style: bold;
+}
+
+.food-button {
+    border-width: 0px;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+}
