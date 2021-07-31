@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/home/ivk/Desktop/Practice/ccbp/myprojects.css" />
+</head>
+  <body>
+    <div id="sectionmyprojectpage">
+        <div class="bg-myprject-page text-center">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png"  class="myprojct-main-img"/>
+            <h1 class="myproject-main-heading">My Projects</h1>
+            <p class="myproject-main-para">This are few of my Static Website projects. i have <br />developed by using HTML, CSS, Bootstarp.</p>
+            <div class="d-flex flex-row justify-content-center myproject-img-container">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="myproject-sub-img" onclick="display('sectionadvancedtechpage')" />
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" class="myproject-sub-img" onclick="display('sectiondiwalipage')"  />
+            </div>
+            <div class="d-flex flex-row justify-content-center myproject-img-container">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="myproject-sub-img" onclick="display('sectionfoodpage')" />
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="myproject-sub-img" onclick="display('sectionnewspage')" />
+           </div>
+        </div>
+
+    </div>
+
+
+   <div id="sectionadvancedtechpage">
+    <div class="advanced-bg-container d-flex flex-column justify-content-end">
+        <div class="advanced-card-container ">
+
+            <h1 class="advanced-card-text">Advanced Technologies</h1>
+            <p class="advanced-card-para">Machinery and equipment developed from the application of scientific knowledge.</p>
+            <button class="advanced-button1">Learn more</button>
+            <button class="advanced-button2" onclick="display('sectionmyprojectpage')">Back</button>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="sectiondiwalipage">
+    <div class="diwali-top-section">
+        <div>
+            <h1 class="diwali-top-section-heading">Celebrate Diwali with your friends</h1>
+        </div>
+        <div class="diwali-bottom-section">
+            <div class="d-flex flex-row justify-content-start">
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="diwali-image" />
+                    <h1 class="diwali-card-des">Diwali Air ballon </h1>
+                    <p class="diwali-card-price">RS.200</p>
+                </div>
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png" class="diwali-image" />
+                    <h1 class="diwali-card-des">Diwali Lamp </h1>
+                    <p class="diwali-card-price">RS.50</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-start">
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png" class="diwali-image" />
+                    <h1 class="diwali-card-des">Sparkiers</h1>
+                    <p class="diwali-card-price">RS.150</p>
+                </div>
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png" class="diwali-image" />
+                    <h1 class="diwali-card-des">Fire Cracker </h1>
+                    <p class="diwali-card-price">RS.560</p>
+                </div>
+            </div>
+            <button class=" btn btn-primary" >View More</button>
+            <button class=" btn btn-primary" onclick="display('sectionmyprojectpage')">Back</button>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+    <div id="sectionfoodpage">
+        <div class="food-container d-flex flex-column justify-content-end">
+            <div class="food-card">
+                <h1 class="food-style">Happy Meals</h1>
+                <p class="food-font">Discover the best foods over the 1,000 restaurants</p>
+                <button class="food-button">Book Now</button>
+                <button class="food-button" onclick="display('sectionmyprojectpage')" >Back</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+<div id="sectionnewspage">
+    <div class="news-bg-container d-flex flex-column justify-content-end">
+        <div class="news-card-container">
+            <p class="news-card-pera">NEWS OF THE DAY</p>
+            <h1 class="news-card-heading">All educational inisitutions in Assam to reopen from November 2</h1>
+            <p class="news-card-description"> Uttar Pradesh Gaytam Buddh Nagar recorded 107 new Covid-19 cases on Saturaday, pushing the district's nfection tally to 15,803. official data showed. the number of active cases came down further to 1,384 from 1,477 on Friday and 1,528 on Thursday. according to the data relesed by the UP Health Department for 24-hour period.</p>
+            <button class="news-card-button">Read more</button>
+            <button class="news-card-button" onclick="display('sectionmyprojectpage')">Back</button>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+  </body>
+</html>
