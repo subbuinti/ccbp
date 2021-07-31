@@ -1,0 +1,44 @@
+
+.news-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.news-card-container {
+    background-color: #ffffff;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 15px;
+}
+
+.news-card-pera {
+    color: #7b8794;
+    font-size: 10px;
+    font-family: Roboto;
+}
+
+.news-card-heading {
+    color: #323f4b;
+    font-size: 15px;
+    font-family: roboto;
+    font-weight: 600;
+}
+
+.news-card-description {
+    color: #7b8794;
+    font-size: 10px;
+    font-family: Roboto;
+}
+
+.news-card-button {
+    background-color: #323f4b;
+    color: #ffffff;
+    border-width: 0px;
+    border-radius: 8px;
+    font-size: 10px;
+    font-family: Roboto;
+    width: 90px;
+    height: 25px;
+
+}
