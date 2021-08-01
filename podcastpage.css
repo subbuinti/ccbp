@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-podcast-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png");
+    background-size: cover;
+    height: 30vh;
+}
+
+.card-container {
+    padding: 10px;
+    margin: 10px;
+}
+
+.img-card-container {
+    text-align: center;
+    margin:10px;        
+}
+
+.bg-heading {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "roboto";
+    padding: 20px;
+}
+
+.pod-image {
+    width: 150px;
+    height: 70px;
+    margin: 10px;
+}
+
+.pod-img-head {
+    font-family: "roboto";
+    font-size: 15px;
+    font-weight: 600;
+    color: #151765;
+    padding: 3px;
+
+}
+
+.pod-img-para {
+    font-family: "roboto";
+    font-size: 15px;
+    color: #5a7184;
+
+}
+
+.podcast-page-bg {
+    background-color: #151765;
+    height: 40vh;
+    padding: 20px;
+
+}
+
+.potcast-page-img {
+    width: 280px;
+    height: 180px;
+    padding: 20px;
+}
+
+.podcast-page-main-head {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: roboto;
+
+
+}
+
+.podcast-page-main-para {
+    color: #ffffff;
+    font-size: 13px;
+    font-family: roboto;
+
+}
+
+.potcast-page-sub-img {
+    width: 260px;
+    height: 190px;
+    padding: 15px;
+}
+
+.podcast-page-head {
+    color: #151765;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "roboto";
+    padding-top: 15px;
+}
+
+.podcast-page-para {
+    color: #5a7184;
+    font-size: 12px;
+    font-family: "roboto";
+}
+
+.podcast-page-para-time {
+    font-size: 10px;
+    padding-bottom: 15px;
+
+}
+
+.button {
+    background-color: #151765;
+    font-family: "roboto";
+    font-size: 10px;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 60px;
+    height: 20px;
+    padding-right: 10px;
+}
