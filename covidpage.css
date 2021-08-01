@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    margin: 30px;
+}
+
+.top-heading {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 300;
+    color: #707070;
+}
+
+.know-more-button {
+    width: 130px;
+    height: 30px;
+
+}
+
+.covid-continer {
+    background-color: #0967d219;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 500;
+
+}
+
+.card-image {
+    width: 110px;
+    height: 100px;
+
+}
+
+
+
+.covid-head {
+    color: #707070;
+    font-family: roboto;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.covid-para {
+    color: #707070;
+    font-family: roboto;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.cough {
+    background-color: #3ebd93;
+    width: 80px;
+    height: 40;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 3px;
+    margin: 10px;
+
+}
+
+.fever {
+    background-color: #a368fc;
+    width: 80px;
+    height: 40;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 3px;
+    margin: 10px;
+}
+
+.headache {
+    background-color: #e668a7;
+    width: 80px;
+    height: 30;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 3px;
+    margin: 10px;
+
+}
+
+.card-padding {
+    padding: 10px;
+
+    text-align: center;
+}
+
+.bg-bottom {
+    background-color: #e12d3919;
+    border-radius: 10px;
+
+}
+
+.hed {
+    font-family: roboto;
+    font-size: 20px;
+    color: #323f4b;
+}
