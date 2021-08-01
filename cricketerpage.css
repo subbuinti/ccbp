@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container-top-section {
+    background-color: #fb4e71;
+    background-size: cover;
+    height: 35vh;
+    padding: 10px;
+}
+
+.top-name {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: roboto;
+}
+
+.top-description {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: roboto;
+
+}
+
+.top-image {
+    height: 150px;
+    width: 150px;
+}
+
+.bg-container-bottom-section {
+    background-color: #e6f6ff;
+}
+
+.bottom-card-head {
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 10px;
+
+}
+
+.bottom-card-container {
+    font-family: roboto;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.bottom-card-continer-img {
+    width: 100px;
+    height: 100px;
+}
+
+.bottom-card-continer-head {
+    color: #323f4b;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: roboto;
+    padding: 5px;
+}
+
+.bottom-card-continer-para {
+    font-size: 13px;
+    font-family: roboto;
+    padding: 5px;
+}
+
+.card-continer-video {}
+
+.video-heading {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.video-image {
+    width: 80px;
+    margin: 10px;
+}
+
+.video-img-style {
+    width: 80px;
+    height: 80px;
+}
+
+.img-para {
+    font-family: roboto;
+    font-size: 10px;
+
+}
