@@ -58,7 +58,7 @@
 
 
 .wcu-section-container{
-    background-color:#f9fbfe;
+    background-color:#f9fbf9;
     padding:20px;
 }
 .wcu-heading{
@@ -82,20 +82,7 @@
     border-style:solid;
     
 
-}
-.wcu-card-img{
-    width:90px;
-    height:90px;
-
-}
-.wcu-card-title{
-    color:#323f4b;
-    font-family:"roboto";
-    font-size:30px;
-    font-weight:400;
-
-
-}
+}footer-img
 .wcu-card-des{
     color:#7b8794;
     font-family:"roboto";
@@ -105,5 +92,168 @@
 .offers{
     color:#323f4b;
     font-style:italic;
-    font-weight:500;
+    font-weight:800;
 }
+.explore-menu-sec{
+    background-color: #ffffff;
+}
+.explore-menu-head{
+    color:#183b56;
+    font-size:50px;
+    font-weight: 700;
+    font-family: "roboto";
+}
+.exp-card-container{
+    border-radius:60px;
+
+}
+.explore-img{
+    width:100%;
+    border-radius:10px;
+
+}
+.exp-sub-head{ 
+    color:#323f4b;
+    font-size:40px;
+    font-weight:700;
+}
+
+.exp-anchor{
+    color:#d0b200;
+    font-size:25px;
+
+}
+.healty-food-sec{
+    background-color:#f9fbfe;
+
+}
+.healty-img{
+    width:100%;
+}
+.healty-head{
+    color:#183b56;
+    font-family:"roboto";
+    font-size:35px;
+    font-weight:700;
+}
+.healthy-para{
+    color:#5a7184;
+    font-family:"roboto";
+    font-size:25px;
+}
+.healthy-button{
+    background-color:#d0b200;
+    color:#ffffff;
+    border-radius:10px;
+    border-width:0px;
+    width:130px;
+    height:50px;
+
+}
+.delivary-pay-sec{
+    background-color:#f9fbfe;}
+
+.delivary-img{
+    width:100%;
+}
+.delivary-head{
+    color:#183b56;
+    font-family:"roboto";
+    font-size:35px;
+    font-weight:700;
+}
+.delivary-para{
+    color:#5a7184;
+    font-family:"roboto";
+    font-size:25px;
+}
+.delivary-button{
+    background-color:#d0b200;
+    color:#ffffff;
+    border-radius:10px;
+    border-width:0px;
+    width:130px;
+    height:50px;
+
+}
+.payment-img{
+    width:100px;
+    height:100px;
+    margin-right:30px;
+}
+.thanking-section{
+    background-color:#d0b2001a ;
+}
+.thanks-head{
+    color:#183b56;
+    font-size:40px;
+    font-family:"roboto";
+    font-weight:700;
+}
+.thanks-des{
+    color: #5a7184;
+    font-size:30px;
+    font-family:"roboto";
+}
+.thanks-gift{
+    width:100%
+}
+.thanks-btn{
+    background-color:#d0b200;
+    color:#ffffff;
+    border-radius:10px;
+    border-width:0px;
+    width:130px;
+    height:50px;
+    
+}
+.follow-us-section{
+    background-color: #ffffff;
+    height:70vh;
+}
+.follow-us-heading{
+    color:#183b56;
+    font-family:"roboto";
+    font-size:50px;
+    text-align: center;
+    font-weight:800;
+}
+.follow-us-img{
+   color: #d0b200;
+   font-size:35px;
+
+
+}
+.fllow-us-bg{
+    background-color:#faf7e8;
+    width:80px; 
+    height:80px;   
+    border-radius:40px;
+    margin:15px;
+    padding-top:22px;
+    padding-right:15px;
+    padding-bottom:15px;
+    padding-left:20px; 
+}
+.footer-sec{
+    background-color:#183b56;
+    background-size: cover;
+    height:70vh;
+}
+.footer-img{
+    width:150px;
+    height:150px;
+    padding-bottom:20px;
+}
+.footer-mail{ 
+    color:#959ead;
+    font-size:20px;
+    font-family:"roboto";
+    font-weight:600;
+}
+.footer-address{ 
+    color:#959ead;
+    font-size:20px;
+    font-family:"roboto";
+}
+
