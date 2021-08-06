@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.pro-sec{
+    background-color: #3e4c59;
+}
+.pro-sec-sub-head{
+    color:#cced00;
+    font-family:"Roboto";
+    font-size:20px;
+    font-weight:bold;
+}
+.pro-sec-head{
+    color:#ffffff;
+    font-family:"Roboto";
+    font-size:36px;
+    font-weight:bold;
+}
+.pro-card {
+    background-color: #323f4b;
+    border-radius: 10px;
+}
+.pro-card-img{
+    width:100%;
+}
+.pro-card-su-title{
+     color:#9aa5b1;
+    font-family:"Roboto";
+    font-size:15px;
+    font-weight:500;
+}
+.pro-card-title{
+     color:#ffffff;
+    font-family:"Roboto";
+    font-size:25px;
+    font-weight:500;
+    margin-top:5px;
+}
+.pro-card-des{
+    color:#9aa5b1;
+    font-family:"Roboto";
+    font-size:20px;
+}
+.pro-card-link{
+     color:#cced00;
+    font-family:"Roboto";
+    font-size:15px;
+    font-weight:bold;
+}
